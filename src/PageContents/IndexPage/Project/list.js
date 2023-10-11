@@ -136,7 +136,7 @@ export const projects = [
         text: 'yarn berry',
         exp: [
           '기존 node_modules의 설치 속도를 개선하기 위한 yarn berry 도입',
-          'yarn berry를 사용하기 위한 기본 환경 설정 및 설정법을 학습 및 공유',
+          'yarn berry를 사용하기 위한 기본 환경 설정 및 사용법 학습 및 공유',
         ],
       },
       {
