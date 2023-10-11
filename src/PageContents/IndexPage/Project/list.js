@@ -39,8 +39,8 @@ export const projects = [
       },
     ],
     img: {
-      width: 560,
-      height: 300,
+      width: 600,
+      height: 330,
       cnt: 3,
       list: [upcast1, upcast2, upcast3],
       link: 'https://upcast-beige.vercel.app/',
@@ -98,8 +98,8 @@ export const projects = [
       },
     ],
     img: {
-      width: 460,
-      height: 140,
+      width: 300,
+      height: 82,
       cnt: 1,
       list: [jonathan],
     },
@@ -159,8 +159,8 @@ export const projects = [
       },
     ],
     img: {
-      width: 460,
-      height: 136,
+      width: 300,
+      height: 88,
       cnt: 1,
       list: [marker],
       link: 'https://jonathan.acryl.ai/marker',
@@ -202,8 +202,8 @@ export const projects = [
       },
     ],
     img: {
-      width: 460,
-      height: 116,
+      width: 340,
+      height: 90,
       cnt: 1,
       list: [flightbase],
       link: 'https://jonathan.acryl.ai/flightbase',
