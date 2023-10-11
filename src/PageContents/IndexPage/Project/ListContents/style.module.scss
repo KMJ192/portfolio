@@ -1,0 +1,85 @@
+@import '../style.module.scss';
+
+.content {
+  flex-direction: column;
+  row-gap: 12px;
+  .company {
+    color: #3b3b3b;
+    font-family: 'Lilita One', sans-serif;
+  }
+  .box {
+    flex-direction: column;
+    .top {
+      flex-direction: column;
+      row-gap: 16px;
+      .img {
+        overflow: hidden;
+        border-radius: 8px;
+        .imgList {
+          transition: transform 0.2s ease-in-out;
+        }
+      }
+      .selector {
+        column-gap: 8px;
+        .dot {
+          cursor: pointer;
+          width: 10px;
+          height: 10px;
+          background: rgb(191, 191, 191);
+          border-radius: 50%;
+          transition: width 0.2s ease;
+          &.isSelect {
+            width: 30px;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+    .bottom {
+      flex-direction: column;
+      .description,
+      .performance {
+        flex-direction: column;
+        row-gap: 8px;
+        .text {
+          width: fit-content;
+          column-gap: 8px;
+          color: #282828;
+          .link {
+            text-decoration: none;
+            transition: text-decoration 0.2s ease;
+            color: #282828;
+            & > span:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .performance {
+        .text {
+          flex-direction: column;
+          .exp {
+            flex-direction: column;
+            row-gap: 4px;
+            .expText {
+              text-indent: 12px;
+            }
+          }
+        }
+      }
+      .stack {
+        flex-direction: column;
+        row-gap: 8px;
+        .stackList {
+          flex-wrap: wrap;
+          gap: 8px;
+          .badge {
+            user-select: none;
+            --upcast-color-badge-bg: rgb(154, 237, 145);
+            --upcast-color-badge-color: #282828;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import '../style.module.scss';
+
+.career {
+  @include container;
+  .title::after {
+    content: 'Career';
+  }
+  .company {
+    flex-direction: column;
+    row-gap: 24px;
+    .link {
+      width: 114px;
+      height: 114px;
+      border-radius: 50%;
+      border: 2px solid $divide-line;
+      .logo {
+        width: 102px;
+        height: 16px;
+      }
+    }
+    .name {
+      justify-content: space-between;
+      .n {
+        color: #383838;
+      }
+      .date {
+        color: #838383;
+        text-wrap: nowrap;
+        white-space: nowrap;
+        display: flex;
+        align-items: flex-end;
+        font-style: italic;
+      }
+      @media screen and (max-width: 486px) {
+        justify-content: start;
+        flex-direction: column;
+        row-gap: 8px;
+      }
+    }
+    .content {
+      flex-direction: column;
+      row-gap: 6px;
+      .text {
+        column-gap: 6px;
+      }
+    }
+  }
+}

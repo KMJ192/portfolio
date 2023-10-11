@@ -1,0 +1,18 @@
+.title {
+  color: #383838;
+  position: relative;
+  border-left: 8px solid rgb(79, 77, 182);
+  padding-left: 12px;
+  display: flex;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  &::after {
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0.3rem;
+    left: 0.82rem;
+    padding-left: 3px;
+    text-wrap: nowrap;
+    white-space: nowrap;
+  }
+}

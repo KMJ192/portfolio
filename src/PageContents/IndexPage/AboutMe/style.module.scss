@@ -1,0 +1,46 @@
+@import '../style.module.scss';
+
+.about {
+  color: #252525;
+  row-gap: 56px;
+  @include container;
+  .title {
+    justify-content: space-between;
+    .str::after {
+      content: 'About Me';
+    }
+    .lu {
+      color: #838383;
+      white-space: nowrap;
+      display: flex;
+      align-items: flex-end;
+      font-style: italic;
+    }
+    @media screen and (max-width: 530px) {
+      flex-direction: column;
+      row-gap: 8px;
+    }
+  }
+  .box {
+    column-gap: 80px;
+    .left,
+    .right {
+      flex-direction: column;
+      row-gap: 16px;
+      text-wrap: nowrap;
+      white-space: nowrap;
+      box-sizing: border-box;
+      .info {
+        align-items: flex-end;
+        grid-template-columns: 0.1fr 1fr;
+        .first {
+          width: 100px;
+        }
+      }
+    }
+    @media screen and (max-width: 780px) {
+      flex-direction: column;
+      row-gap: 16px;
+    }
+  }
+}

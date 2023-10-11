@@ -1,0 +1,35 @@
+.header {
+  z-index: 100;
+  position: fixed;
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  .box {
+    width: 100%;
+    position: relative;
+    padding: 20px 2rem;
+    box-sizing: border-box;
+    .contents {
+      justify-content: space-between;
+      .left {
+        column-gap: 24px;
+        .nav {
+          text-decoration: none;
+          color: #252525;
+          cursor: pointer;
+          transition: opacity 0.2s ease-in-out;
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+  .scroll {
+    height: 3px;
+    background-color: rgba(53, 38, 255, 0.6);
+    position: absolute;
+    top: 56px;
+    transition: width 0.1s ease;
+  }
+}

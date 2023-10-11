@@ -1,0 +1,17 @@
+@import '../style.module.scss';
+
+.intro {
+  color: #252525;
+  justify-content: center;
+  @include container;
+  .title::after {
+    content: 'Introduction';
+  }
+  .box {
+    .content {
+      flex-direction: column;
+      row-gap: 4px;
+      line-height: 2;
+    }
+  }
+}

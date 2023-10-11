@@ -1,0 +1,45 @@
+@import '../style.module.scss';
+
+.skills {
+  @include container;
+  flex-direction: column;
+  row-gap: 32px;
+  padding-bottom: 102px;
+  .title::after {
+    content: 'Skills';
+  }
+  .list {
+    gap: 24px 32px;
+    flex-wrap: wrap;
+    & > img,
+    .github {
+      width: 100px;
+      height: 48px;
+      border-radius: 6px;
+      border: 1px solid $divide-line;
+      padding: 12px;
+      transition: transform 0.1s ease;
+      &:hover {
+        transform: scale(1.2);
+      }
+      &.square {
+        width: 48px;
+      }
+      &.size0 {
+        width: 200px;
+      }
+      &.size1 {
+        width: 176px;
+      }
+      &.size2 {
+        width: 128px;
+      }
+      &.size3 {
+        width: 102px;
+      }
+      &.size4 {
+        width: 72px;
+      }
+    }
+  }
+}

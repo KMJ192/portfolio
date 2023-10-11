@@ -1,0 +1,13 @@
+@import '../style.module.scss';
+
+.project {
+  flex-direction: column;
+  row-gap: 32px;
+  @include container;
+  .title::after {
+    content: 'Project';
+  }
+  .list {
+    flex-direction: column;
+  }
+}

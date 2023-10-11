@@ -1,0 +1,28 @@
+@mixin container {
+  flex-direction: column;
+}
+
+$divide-line: rgb(205, 205, 205);
+
+.contents {
+  padding: 4rem 0;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  transition: padding 0.1s ease;
+  padding: 0 300px;
+  row-gap: 64px;
+  @media screen and (max-width: 1477px) {
+    padding: 2rem 200px;
+  }
+  @media screen and (max-width: 1400px) {
+    padding: 2rem 100px;
+  }
+  @media screen and (max-width: 1180px) {
+    padding: 2rem 50px;
+  }
+  .line {
+    height: 1px;
+    background-color: $divide-line;
+  }
+}
