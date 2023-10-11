@@ -186,7 +186,7 @@ export const projects = [
       },
       {
         link: 'none',
-        text: '서버 데이터 및 차트 라이브러리를 이용한 데이터 시각화 (AMCharts, ECharts 사용)',
+        text: '서버 데이터 및 차트 라이브러리를 이용한 데이터 시각화 (AMCharts, HightCharts, NivoChart 사용)',
       },
       {
         link: 'none',
