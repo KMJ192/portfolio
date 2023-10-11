@@ -133,7 +133,7 @@ function ListContents({
           </Flex>
           <Spacing spacing={16} />
           <Flex className={cx('stack')}>
-            <Text typo='t2'>기술 스택</Text>
+            <Text typo='t2'>사용 기술</Text>
             <Flex className={cx('stackList')}>
               {stack.map((stack) => {
                 return (

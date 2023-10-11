@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Text, Spacing, Grid } from '@upcast/react-ui';
+import { Flex, Text, Grid } from '@upcast/react-ui';
 
 import Title from '../../../components/Title/Title';
 
