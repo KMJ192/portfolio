@@ -19,6 +19,7 @@
       border: 1px solid $divide-line;
       padding: 12px;
       transition: transform 0.1s ease;
+      cursor: default;
       &:hover {
         transform: scale(1.2);
       }

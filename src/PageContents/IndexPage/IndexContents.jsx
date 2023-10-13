@@ -21,7 +21,7 @@ function IndexContents() {
 
   return (
     <>
-      <Snowflake frequency={50} />
+      {/* <Snowflake frequency={50} /> */}
       {/* <Main /> */}
       <Spacing spacing={112} />
       <Flex as='section' className={cx('contents')}>
