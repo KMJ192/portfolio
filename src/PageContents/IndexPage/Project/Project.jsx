@@ -26,7 +26,20 @@ function Project() {
       </Title>
       <Flex className={cx('list')}>
         {projects.map(
-          ({ name, company, project, period, desc, perf, img, stack }, idx) => {
+          (
+            {
+              name,
+              company,
+              project,
+              period,
+              contribution,
+              desc,
+              perf,
+              img,
+              stack,
+            },
+            idx,
+          ) => {
             return (
               <ListContents
                 key={name}
@@ -34,6 +47,7 @@ function Project() {
                 company={company}
                 project={project}
                 period={period}
+                contribution={contribution}
                 desc={desc}
                 perf={perf}
                 img={img}

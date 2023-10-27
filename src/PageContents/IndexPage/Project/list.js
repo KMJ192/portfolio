@@ -11,6 +11,7 @@ export const projects = [
     company: '개인 프로젝트',
     project: 'Upcast',
     period: '기간 : 2023.08 ~ 진행중',
+    contribution: '참여인원 : 1명 (기여도 100%)',
     desc: ['react에서 사용될 수 있는 UI 컴포넌트, 기능을 제공하는 라이브러리'],
     perf: [
       {
@@ -60,6 +61,7 @@ export const projects = [
     company: '(주)아크릴',
     project: 'Jonathan-UI',
     period: '기간 : 2023.02 ~ 2023.06',
+    contribution: '참여인원 : 4명 (기여도 25%)',
     desc: [
       '사내에서 사용하는 디자인 시스템',
       '전사 디자인 시스템이 요구됨에 따라 개발',
@@ -109,6 +111,7 @@ export const projects = [
     name: 'marker',
     project: 'Jonathan-Marker(V2)',
     period: '기간 : 2022.09 ~ 2023.01',
+    contribution: '참여인원 : 4명 (기여도 25%)',
     desc: [
       '이미지 합성 데이터를 쌓기위한 라벨링 도구',
       'B2B 프로젝트로 외부공개를 할 수 없음',
@@ -171,6 +174,7 @@ export const projects = [
     name: 'flightbase',
     project: 'Jonathan-Flightbase',
     period: '기간 : 2021.07 ~ 2023.06',
+    contribution: '참여인원 : 5명 (기여도 20%)',
     desc: [
       '기업용 AI 전문 클라우드 시스템',
       'B2B 프로젝트로 외부공개를 할 수 없음',

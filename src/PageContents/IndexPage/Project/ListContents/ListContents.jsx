@@ -10,6 +10,7 @@ function ListContents({
   company,
   project,
   period,
+  contribution,
   desc,
   perf,
   img,
@@ -84,6 +85,8 @@ function ListContents({
           <Text typo='t1'>{project}</Text>
           <Spacing spacing={8} />
           <Text>{period}</Text>
+          <Spacing spacing={8} />
+          <Text>{contribution}</Text>
           <Spacing spacing={16} />
           <Flex className={cx('description')}>
             <Text typo='t2'>프로젝트 설명</Text>
