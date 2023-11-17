@@ -58,6 +58,12 @@ function Career() {
           <Center className={cx('text')} horizontal={false}>
             <Text>• RPA 개발자로 근무 했습니다.</Text>
           </Center>
+          <Center className={cx('text')} horizontal={false}>
+            <Text>
+              • RPA(Robotic Process Automation) - 업무 자동화 프로그램 (일종의
+              매크로 프로그램)
+            </Text>
+          </Center>
         </Flex>
       </Flex>
     </Flex>

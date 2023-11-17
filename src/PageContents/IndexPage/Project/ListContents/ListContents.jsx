@@ -138,9 +138,9 @@ function ListContents({
           <Flex className={cx('stack')}>
             <Text typo='t2'>사용 기술</Text>
             <Flex className={cx('stackList')}>
-              {stack.map((stack) => {
+              {stack.map((stack, idx) => {
                 return (
-                  <Badge colorSchema='custom' className={cx('badge')}>
+                  <Badge key={idx} colorSchema='custom' className={cx('badge')}>
                     {stack}
                   </Badge>
                 );
