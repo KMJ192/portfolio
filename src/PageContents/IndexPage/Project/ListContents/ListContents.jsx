@@ -36,6 +36,12 @@ function ListContents({
               width: img.width,
               height: img.height,
             }}
+            // onDragStart={() => {
+            //   console.log(1);
+            // }}
+            // onDragEnd={() => {
+            //   console.log(2);
+            // }}
           >
             <Flex
               className={cx('imgList')}
