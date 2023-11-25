@@ -193,7 +193,7 @@ export const projects = [
         text: '문서 페이지(링크)',
       },
       {
-        link: 'https://github.com/KMJ192/upcast',
+        link: 'https://github.com/KMJ192/cdkit',
         text: 'Github 저장소(링크)',
       },
     ],
