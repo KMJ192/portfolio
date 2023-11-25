@@ -1,6 +1,6 @@
-import upcast1 from './image/upcast1.png';
-import upcast2 from './image/upcast2.png';
-import upcast3 from './image/upcast3.png';
+import cdkit1 from './image/cdkit1.png';
+import cdkit2 from './image/cdkit2.png';
+import cdkit3 from './image/cdkit3.png';
 import jonathan from './image/jonathan.png';
 import marker from './image/marker.png';
 import flightbase from './image/flightbase.png';
@@ -165,9 +165,9 @@ export const projects = [
     stack: ['Javascript', 'React', 'Redux', 'Scss', 'Storybook'],
   },
   {
-    name: 'upcast',
+    name: 'cdkit',
     company: '개인 프로젝트',
-    project: 'Upcast',
+    project: 'CDKit (Component Develop Kit)',
     period: '기간 : 2023.08 ~ 진행중',
     contribution: '참여인원 : 1명',
     desc: ['react에서 사용될 수 있는 UI 컴포넌트, 기능을 제공하는 라이브러리'],
@@ -201,7 +201,7 @@ export const projects = [
       width: 600,
       height: 330,
       cnt: 3,
-      list: [upcast1, upcast2, upcast3],
+      list: [cdkit1, cdkit2, cdkit3],
       link: 'https://upcast-beige.vercel.app/',
     },
     stack: [

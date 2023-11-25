@@ -13,7 +13,7 @@ const cx = classNames.bind(style);
 
 function Project() {
   const [slideImg, setSlideImg] = useState({
-    upcast: 0,
+    cdkit: 0,
     jonathanUI: 0,
     marker: 0,
     flightbase: 0,
