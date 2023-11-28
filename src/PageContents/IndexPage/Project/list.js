@@ -1,6 +1,4 @@
-import cdkit1 from './image/cdkit1.png';
-import cdkit2 from './image/cdkit2.png';
-import cdkit3 from './image/cdkit3.png';
+import cdkit from './image/cdkit.png';
 import jonathan from './image/jonathan.png';
 import marker from './image/marker.png';
 import flightbase from './image/flightbase.png';
@@ -198,10 +196,10 @@ export const projects = [
       },
     ],
     img: {
-      width: 600,
-      height: 330,
-      cnt: 3,
-      list: [cdkit1, cdkit2, cdkit3],
+      width: 300,
+      height: 88,
+      cnt: 1,
+      list: [cdkit],
       link: 'https://cdkit-document.vercel.app/',
     },
     stack: [
