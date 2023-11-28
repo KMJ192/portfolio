@@ -5,6 +5,56 @@ import flightbase from './image/flightbase.png';
 
 export const projects = [
   {
+    name: 'cdkit',
+    company: '개인 프로젝트',
+    project: 'CDKit (Component Develop Kit)',
+    period: '기간 : 2023.08 ~ 진행중',
+    contribution: '참여인원 : 1명',
+    desc: ['react에서 사용될 수 있는 UI 컴포넌트, 기능을 제공하는 라이브러리'],
+    perf: [
+      {
+        link: 'none',
+        text: '라이브러리 컴포넌트 관리',
+      },
+      {
+        link: 'none',
+        text: 'yarn workspace를 이용한 프로젝트 관리',
+      },
+      {
+        link: 'none',
+        text: 'Public NPM 저장소 배포',
+      },
+      {
+        link: 'none',
+        text: '라이브러리의 사용법을 제공하는 문서 페이지 개발',
+      },
+      {
+        link: 'https://cdkit-document.vercel.app/',
+        text: '문서 페이지(링크)',
+      },
+      {
+        link: 'https://github.com/KMJ192/cdkit',
+        text: 'Github 저장소(링크)',
+      },
+    ],
+    img: {
+      width: 300,
+      height: 88,
+      cnt: 1,
+      list: [cdkit],
+      link: 'https://cdkit-document.vercel.app/',
+    },
+    stack: [
+      'Typescript',
+      'React',
+      'NextJS',
+      'SCSS',
+      'Rollup',
+      'Yarn workspace',
+      'zustand',
+    ],
+  },
+  {
     name: 'jonathanUI',
     company: '(주)아크릴',
     project: 'Jonathan-UI',
@@ -161,55 +211,5 @@ export const projects = [
       link: 'https://jonathan.acryl.ai/flightbase',
     },
     stack: ['Javascript', 'React', 'Redux', 'Scss', 'Storybook'],
-  },
-  {
-    name: 'cdkit',
-    company: '개인 프로젝트',
-    project: 'CDKit (Component Develop Kit)',
-    period: '기간 : 2023.08 ~ 진행중',
-    contribution: '참여인원 : 1명',
-    desc: ['react에서 사용될 수 있는 UI 컴포넌트, 기능을 제공하는 라이브러리'],
-    perf: [
-      {
-        link: 'none',
-        text: '라이브러리 컴포넌트 관리',
-      },
-      {
-        link: 'none',
-        text: 'yarn workspace를 이용한 프로젝트 관리',
-      },
-      {
-        link: 'none',
-        text: 'Public NPM 저장소 배포',
-      },
-      {
-        link: 'none',
-        text: '라이브러리의 사용법을 제공하는 문서 페이지 개발',
-      },
-      {
-        link: 'https://cdkit-document.vercel.app/',
-        text: '문서 페이지(링크)',
-      },
-      {
-        link: 'https://github.com/KMJ192/cdkit',
-        text: 'Github 저장소(링크)',
-      },
-    ],
-    img: {
-      width: 300,
-      height: 88,
-      cnt: 1,
-      list: [cdkit],
-      link: 'https://cdkit-document.vercel.app/',
-    },
-    stack: [
-      'Typescript',
-      'React',
-      'NextJS',
-      'SCSS',
-      'Rollup',
-      'Yarn workspace',
-      'zustand',
-    ],
   },
 ];
