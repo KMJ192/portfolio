@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Center, Flex, Float, Text } from '@upcast/react-ui';
+import { Center, Flex, Float, Text } from '@cdkit/react-ui';
 
 import { useScrollState } from '../../../store/scroll';
 

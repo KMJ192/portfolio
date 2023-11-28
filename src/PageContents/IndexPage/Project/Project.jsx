@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flex } from '@upcast/react-ui';
+import { Flex } from '@cdkit/react-ui';
 
 import Title from '../../../components/Title/Title';
 
@@ -21,7 +21,7 @@ function Project() {
 
   return (
     <Flex as='section' className={cx('project')}>
-      <Title typo='h2' className={cx('title')}>
+      <Title typo='h4' className={cx('title')}>
         Project
       </Title>
       <Flex className={cx('list')}>

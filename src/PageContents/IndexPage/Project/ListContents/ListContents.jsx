@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Text, Spacing, Center, Badge } from '@upcast/react-ui';
+import { Flex, Text, Spacing, Center, Badge } from '@cdkit/react-ui';
 
 import * as style from './style.module.scss';
 import classNames from 'classnames/bind';
@@ -22,7 +22,7 @@ function ListContents({
   return (
     <Flex className={cx('content')}>
       {company && (
-        <Text className={cx('company')} typo='h2'>
+        <Text className={cx('company')} typo='h4'>
           {company}
         </Text>
       )}
@@ -87,6 +87,7 @@ function ListContents({
               })}
           </Flex>
         </Center>
+        <Spacing spacing={1} unit='rem' />
         <Flex className={cx('bottom')}>
           <Text typo='t1'>{project}</Text>
           <Spacing spacing={8} />
@@ -95,7 +96,7 @@ function ListContents({
           <Text>{contribution}</Text>
           <Spacing spacing={16} />
           <Flex className={cx('description')}>
-            <Text typo='t2'>프로젝트 설명</Text>
+            <Text typo='t3'>프로젝트 설명</Text>
             {desc.map((text, index) => {
               return (
                 <Center key={index} className={cx('text')} horizontal={false}>

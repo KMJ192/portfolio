@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-import { Center, Flex, Text } from '@upcast/react-ui';
+import { Center, Flex, Text } from '@cdkit/react-ui';
 
 import { useScrollState } from '../../store/scroll';
 
@@ -33,21 +33,21 @@ function Header() {
     <Flex as='header' className={cx('header')}>
       <Flex className={cx('box')}>
         <Center className={cx('contents')}>
-          <Text typo='s1'>Portfolio</Text>
+          <Text typo='s3'>Portfolio</Text>
           <Flex className={cx('left')} as='nav'>
-            <Text as='a' href='#about-me' typo='s1' className={cx('nav')}>
+            <Text as='a' href='#about-me' typo='s3' className={cx('nav')}>
               About Me
             </Text>
-            <Text as='a' href='#introduction' typo='s1' className={cx('nav')}>
+            <Text as='a' href='#introduction' typo='s3' className={cx('nav')}>
               Introduction
             </Text>
-            <Text as='a' typo='s1' href='#career' className={cx('nav')}>
+            <Text as='a' typo='s3' href='#career' className={cx('nav')}>
               Career
             </Text>
-            <Text as='a' typo='s1' href='#projects' className={cx('nav')}>
+            <Text as='a' typo='s3' href='#projects' className={cx('nav')}>
               Projects
             </Text>
-            <Text as='a' typo='s1' href='#skills' className={cx('nav')}>
+            <Text as='a' typo='s3' href='#skills' className={cx('nav')}>
               Skills
             </Text>
           </Flex>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Text, Spacing, Center } from '@upcast/react-ui';
+import { Flex, Text, Spacing, Center } from '@cdkit/react-ui';
 
 import Title from '../../../components/Title/Title';
 
@@ -13,7 +13,7 @@ const cx = classNames.bind(style);
 function Career() {
   return (
     <Flex as='section' className={cx('career')}>
-      <Title typo='h2' className={cx('title')}>
+      <Title typo='h4' className={cx('title')}>
         Career
       </Title>
       <Spacing spacing={48} />

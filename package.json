@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "author": "myeongjun222@gmail.com",
   "dependencies": {
-    "@upcast/react-ui": "^0.0.25",
+    "@cdkit/react-ui": "^0.0.9",
     "gatsby": "^5.12.4",
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-manifest": "^5.12.0",

@@ -9,6 +9,9 @@
   }
   .box {
     .content {
+      .hi {
+        line-height: 2rem;
+      }
       flex-direction: column;
       row-gap: 8px;
       line-height: 24px;

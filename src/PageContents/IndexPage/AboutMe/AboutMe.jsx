@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Text, Grid } from '@upcast/react-ui';
+import { Flex, Text, Grid } from '@cdkit/react-ui';
 
 import Title from '../../../components/Title/Title';
 
@@ -11,7 +11,7 @@ function AboutMe() {
   return (
     <Flex as='section' className={cx('about')}>
       <Flex className={cx('title')}>
-        <Title typo='h2' className={cx('str')}>
+        <Title typo='h4' className={cx('str')}>
           About Me
         </Title>
         <Text typo='c1' as='span' className={cx('lu')}>
@@ -21,32 +21,32 @@ function AboutMe() {
       <Flex className={cx('box')}>
         <Flex className={cx('left')}>
           <Grid className={cx('info')}>
-            <Text typo='t2' className={cx('first')}>
+            <Text typo='s1' className={cx('first')}>
               이름
             </Text>
-            <Text typo='s1'>김명준</Text>
+            <Text typo='b1'>김명준</Text>
           </Grid>
           <Grid className={cx('info')}>
-            <Text typo='t2' className={cx('first')}>
+            <Text typo='s1' className={cx('first')}>
               생년월일
             </Text>
-            <Text typo='s1'>1994.02.04</Text>
+            <Text typo='b1'>1994.02.04</Text>
           </Grid>
           <Grid className={cx('info')}>
-            <Text typo='t2' className={cx('first')}>
+            <Text typo='s1' className={cx('first')}>
               Email
             </Text>
-            <Text typo='s1'>myeongjun222@gmail.com</Text>
+            <Text typo='b1'>myeongjun222@gmail.com</Text>
           </Grid>
         </Flex>
         <Flex className={cx('right')}>
           <Grid className={cx('info')}>
-            <Text typo='t2' className={cx('first')}>
+            <Text typo='s1' className={cx('first')}>
               Github
             </Text>
             <Text
               as='a'
-              typo='s1'
+              typo='b1'
               target='_blank'
               href='https://github.com/KMJ192'
             >
@@ -54,14 +54,14 @@ function AboutMe() {
             </Text>
           </Grid>
           <Grid className={cx('info')}>
-            <Text typo='t2' className={cx('first')}>
+            <Text typo='s1' className={cx('first')}>
               Blog
             </Text>
             <Text
               as='a'
               href='https://kmj24.tistory.com/'
               target='_blank'
-              typo='s1'
+              typo='b1'
             >
               https://kmj24.tistory.com/
             </Text>

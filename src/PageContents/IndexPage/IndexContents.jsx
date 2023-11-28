@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Flex, Text, Spacing } from '@upcast/react-ui';
+import { Flex, Text, Spacing } from '@cdkit/react-ui';
 
 import Introduction from './Introduction/Introduction';
 import Career from './Career/Career';

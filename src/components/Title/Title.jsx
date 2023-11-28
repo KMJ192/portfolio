@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Flex, Text } from '@upcast/react-ui';
+import { Flex, Text } from '@cdkit/react-ui';
 
 import * as style from './style.module.scss';
 import classNames from 'classnames/bind';

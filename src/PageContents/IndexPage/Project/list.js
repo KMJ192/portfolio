@@ -189,7 +189,7 @@ export const projects = [
         text: '라이브러리의 사용법을 제공하는 문서 페이지 개발',
       },
       {
-        link: 'https://upcast-beige.vercel.app/',
+        link: 'https://cdkit-document.vercel.app/',
         text: '문서 페이지(링크)',
       },
       {
@@ -202,7 +202,7 @@ export const projects = [
       height: 330,
       cnt: 3,
       list: [cdkit1, cdkit2, cdkit3],
-      link: 'https://upcast-beige.vercel.app/',
+      link: 'https://cdkit-document.vercel.app/',
     },
     stack: [
       'Typescript',
