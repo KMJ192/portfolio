@@ -18,8 +18,13 @@
           color: #252525;
           cursor: pointer;
           transition: opacity 0.2s ease-in-out;
+          text-wrap: nowrap;
+          display: block;
           &:hover {
             opacity: 0.5;
+          }
+          @media screen and (max-width: 690px) {
+            display: none;
           }
         }
       }

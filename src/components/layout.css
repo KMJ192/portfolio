@@ -136,3 +136,9 @@ body {
   background: rgba(253, 251, 251, 0.5);
   font-family: 'Exo', sans-serif;
 }
+
+@media screen and (max-width: 780px) {
+  body {
+    font-size: 14px;
+  }
+}
