@@ -94,8 +94,8 @@ function ListContents({
             {desc.map((text, index) => {
               return (
                 <Center key={index} className={cx('desc')} horizontal={false}>
-                  <div class={cx('mark')}></div>
-                  <Text class={cx('label')}>{text}</Text>
+                  <div className={cx('mark')}></div>
+                  <Text className={cx('label')}>{text}</Text>
                 </Center>
               );
             })}
@@ -116,7 +116,7 @@ function ListContents({
                       display='flex'
                       horizontal={false}
                     >
-                      <div class={cx('mark')}></div>
+                      <div className={cx('mark')}></div>
                       <Text className={cx('label')}>{text}</Text>
                     </Center>
                   )}
@@ -126,7 +126,7 @@ function ListContents({
                       className={cx('desc')}
                       horizontal={false}
                     >
-                      <div class={cx('mark')}></div>
+                      <div className={cx('mark')}></div>
                       <Text className={cx('label')}>{text}</Text>
                     </Center>
                   )}

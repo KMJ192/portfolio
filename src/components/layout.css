@@ -130,11 +130,15 @@ body {
   padding: 0 !important;
   margin: 0;
   border: 0;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
 }
 
 body {
   background: rgba(253, 251, 251, 0.5);
-  font-family: 'Exo', sans-serif;
 }
 
 @media screen and (max-width: 780px) {
