@@ -15,7 +15,7 @@ function AboutMe() {
           About Me
         </Title>
         <Text typo='c1' as='span' className={cx('lu')}>
-          Last update : 2023.02.17
+          Last update : 2024.04.20
         </Text>
       </Flex>
       <Flex className={cx('box')}>

@@ -6,9 +6,12 @@
   @include container;
   .title {
     justify-content: space-between;
-    .str::after {
-      content: 'About Me';
+    .str {
+      &::after {
+        content: 'About Me';
+      }
     }
+
     .lu {
       color: #838383;
       white-space: nowrap;
@@ -35,6 +38,10 @@
         grid-template-columns: 0.3fr 1fr;
         .first {
           width: 100px;
+        }
+        @media screen and (max-width: 432px) {
+          row-gap: 4px;
+          grid-template-columns: 1fr;
         }
       }
     }

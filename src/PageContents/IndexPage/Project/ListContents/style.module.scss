@@ -11,20 +11,21 @@
     flex-direction: column;
     .top {
       flex-direction: column;
-      row-gap: 16px;
+      row-gap: 1rem;
       .img {
         overflow: hidden;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         .imgList {
           transition: transform 0.2s ease-in-out;
         }
       }
       .selector {
-        column-gap: 8px;
+        column-gap: 0.5rem;
         .dot {
           cursor: pointer;
-          width: 10px;
-          height: 10px;
+          width: 0.8rem;
+          height: 0.8rem;
+          aspect-ratio: 1;
           background: rgb(191, 191, 191);
           border-radius: 50%;
           transition: width 0.2s ease;
@@ -40,31 +41,36 @@
       .description,
       .performance {
         flex-direction: column;
-        row-gap: 8px;
-        .text {
+        gap: 0.5rem;
+        .desc {
           width: fit-content;
-          column-gap: 8px;
-          color: #282828;
-          .link {
-            text-decoration: none;
-            transition: text-decoration 0.2s ease;
+          column-gap: 0.5rem;
+          .mark {
+            width: 0.25rem;
+            height: 0.25rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: black;
+          }
+          .label {
             color: #282828;
-            & > span:hover {
-              text-decoration: underline;
-            }
+            line-height: 1.5rem;
           }
         }
       }
       .performance {
-        .text {
-          flex-direction: column;
-          .exp {
-            flex-direction: column;
-            row-gap: 4px;
-            .expText {
-              text-indent: 12px;
-            }
+        .link {
+          text-decoration: none;
+          column-gap: 0.5rem;
+          transition: text-decoration 0.2s ease;
+          color: #282828;
+          & > span:hover {
+            text-decoration: underline;
           }
+        }
+        .exp {
+          text-indent: 0.75rem;
+          line-height: 1.5rem;
         }
       }
       .stack {
@@ -76,7 +82,7 @@
           .badge {
             user-select: none;
             --cdkit-color-badge-bg: rgb(154, 237, 145);
-            --cdkit-color-badge-color: #282828;
+            color: #282828;
           }
         }
       }

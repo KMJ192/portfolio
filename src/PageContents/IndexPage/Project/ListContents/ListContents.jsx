@@ -36,12 +36,6 @@ function ListContents({
               width: img.width,
               height: img.height,
             }}
-            // onDragStart={() => {
-            //   console.log(1);
-            // }}
-            // onDragEnd={() => {
-            //   console.log(2);
-            // }}
           >
             <Flex
               className={cx('imgList')}
@@ -95,38 +89,50 @@ function ListContents({
           <Spacing spacing={8} />
           <Text>{contribution}</Text>
           <Spacing spacing={16} />
-          <Flex className={cx('description')}>
+          <Center vertical={false} className={cx('description')}>
             <Text typo='t3'>프로젝트 설명</Text>
             {desc.map((text, index) => {
               return (
-                <Center key={index} className={cx('text')} horizontal={false}>
-                  <Text>• {text}</Text>
+                <Center key={index} className={cx('desc')} horizontal={false}>
+                  <div class={cx('mark')}></div>
+                  <Text class={cx('label')}>{text}</Text>
                 </Center>
               );
             })}
-          </Flex>
+          </Center>
           <Spacing spacing={16} />
           <Flex className={cx('performance')}>
             <Text typo='t2'>성과</Text>
             {perf.map(({ link, text, exp }, idx) => {
               const isLink = link !== 'none';
               return (
-                <Flex key={idx} className={cx('text')}>
+                <Flex key={idx} flexDirection='column'>
                   {isLink && (
-                    <Text
+                    <Center
                       as='a'
                       href={link}
                       target='_blank'
-                      className={cx('link')}
+                      className={cx('link', 'desc')}
+                      display='flex'
+                      horizontal={false}
                     >
-                      • <span>{text}</span>
-                    </Text>
+                      <div class={cx('mark')}></div>
+                      <Text className={cx('label')}>{text}</Text>
+                    </Center>
                   )}
-                  {!isLink && <Text>• {text}</Text>}
+                  {!isLink && (
+                    <Center
+                      display='flex'
+                      className={cx('desc')}
+                      horizontal={false}
+                    >
+                      <div class={cx('mark')}></div>
+                      <Text className={cx('label')}>{text}</Text>
+                    </Center>
+                  )}
                   <Flex className={cx('exp')}>
                     {exp && (
-                      <>
-                        <Spacing spacing={2} />
+                      <Flex className={cx('exp-label')} flexDirection='column'>
                         {exp.map((explanation, idx) => {
                           return (
                             <Text key={idx} className={cx('expText')}>
@@ -134,7 +140,7 @@ function ListContents({
                             </Text>
                           );
                         })}
-                      </>
+                      </Flex>
                     )}
                   </Flex>
                 </Flex>

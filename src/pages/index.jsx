@@ -3,6 +3,8 @@ import Seo from '../components/seo';
 import IndexContents from '../PageContents/IndexPage/IndexContents';
 import Layout from '../components/layout';
 
+import './index.scss';
+
 function IndexPage() {
   return (
     <Layout>
