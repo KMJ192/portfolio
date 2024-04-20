@@ -1,9 +1,9 @@
 import React from 'react';
 import { Flex, Text, Spacing } from '@cdkit/react-ui';
+import Title from '../../../components/Title/Title';
 
 import * as style from './style.module.scss';
 import classNames from 'classnames/bind';
-import Title from '../../../components/Title/Title';
 const cx = classNames.bind(style);
 
 function Introduction() {
@@ -24,11 +24,11 @@ function Introduction() {
             공유하는 것을 좋아합니다.
           </Text>
           <Text typo='s3'>
-            프로젝트를 진행하며 문제 발생 시 해결에 기여하고, 문제를 해결했던
-            경험을 공유하여 팀원의 역량 향상에 기여했습니다. 오래된 코드
-            작성규칙을 개선된 구조로 설계 및 공유하여 개발 생산성 향상에
-            기여하였고, React 컴포넌트 확장성을 위한 컴포넌트 추상화 패턴과 합성
-            컴포넌트 패턴을 연구하고 공유한 경험 등이 있습니다.
+            프로젝트를 진행하며 발생되는 문제점을 찾아내어 해결하는데 기여하고,
+            문제를 해결했던 경험을 공유하여 팀원의 역량 향상에 기여했습니다.
+            오래된 코드 작성규칙을 개선된 구조로 설계 및 공유하여 개발 생산성
+            향상에 기여하였고, 효율성 증대를 위해 컴포넌트 작성 패턴을 연구하고
+            공유한 경험 등이 있습니다.
           </Text>
           <Text typo='s3'>
             공통으로 자주 사용될 수 있는 로직 또는 컴포넌트를 모듈화 및 배포하여
