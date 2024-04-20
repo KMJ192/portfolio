@@ -16,6 +16,7 @@
       color: #838383;
       white-space: nowrap;
       display: flex;
+      display: -webkit-flex;
       align-items: flex-end;
       font-style: italic;
     }
@@ -39,7 +40,7 @@
         .first {
           width: 100px;
         }
-        @media screen and (max-width: 432px) {
+        @media screen and (max-width: 900px) {
           row-gap: 4px;
           grid-template-columns: 1fr;
         }
