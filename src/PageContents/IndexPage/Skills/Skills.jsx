@@ -16,6 +16,7 @@ import storybook from './image/storybook.png';
 import ts from './image/ts.png';
 import vite from './image/vite.png';
 import webpack from './image/webpack.png';
+import svelte from './image/svelte.png';
 import GithubIcon from '../../../components/GithubIcon/GitHubIcon';
 
 import * as style from './style.module.scss';
@@ -35,6 +36,7 @@ function Skills() {
         <img draggable={false} src={rd} />
         <img draggable={false} src={rc} className={cx('size2')} />
         <img draggable={false} src={rq} className={cx('size2')} />
+        <img draggable={false} src={svelte} className={cx('size3')} />
         <img draggable={false} src={webpack} className={cx('size2')} />
         <img draggable={false} src={rollup} className={cx('size2')} />
         <img draggable={false} src={vite} />

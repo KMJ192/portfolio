@@ -2,6 +2,7 @@ import cdkit from './image/cdkit.png';
 import jonathan from './image/jonathan.png';
 import marker from './image/marker.png';
 import flightbase from './image/flightbase.png';
+import ontune from './image/ontune_logo.svg';
 
 export const projects = [
   {
@@ -53,6 +54,31 @@ export const projects = [
       'Yarn workspace',
       'zustand',
     ],
+  },
+  {
+    name: 'onTuneViewerV5',
+    company: '(주)팀스톤',
+    project: 'onTuneViewer V5',
+    period: '기간 : 2024.04.02 ~ ',
+    contribution: '참여인원 : 7명',
+    desc: ['기업용 OS 모니터링 도구', 'OS 자원 모니터링 기능 제공'],
+    img: {
+      width: 300,
+      height: 82,
+      cnt: 1,
+      list: [ontune],
+    },
+    perf: [
+      {
+        link: 'none',
+        text: '대시보드 페이지 개발',
+      },
+      {
+        link: 'none',
+        text: 'Chart 라이브러리를 활용한 데이터 시각화 (ECharts 사용)',
+      },
+    ],
+    stack: ['Typescript', 'Svelte'],
   },
   {
     name: 'jonathanUI',
@@ -169,7 +195,16 @@ export const projects = [
       list: [marker],
       link: 'https://jonathan.acryl.ai/marker',
     },
-    stack: ['Typescript', 'React', 'React-Query', 'Recoil', 'Scss', 'Vite'],
+    stack: [
+      'Typescript',
+      'React',
+      'React-Query',
+      'Recoil',
+      'Scss',
+      'Vite',
+      'ECharts',
+      'AMChart',
+    ],
   },
   {
     name: 'flightbase',
@@ -212,6 +247,15 @@ export const projects = [
       list: [flightbase],
       link: 'https://jonathan.acryl.ai/flightbase',
     },
-    stack: ['Javascript', 'React', 'Redux', 'Scss', 'Storybook'],
+    stack: [
+      'Javascript',
+      'React',
+      'Redux',
+      'Scss',
+      'Storybook',
+      'AMCharts',
+      'HighCharts',
+      'NivoChart',
+    ],
   },
 ];

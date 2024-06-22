@@ -3,6 +3,7 @@ import { Flex, Text, Spacing, Center } from '@cdkit/react-ui';
 
 import Title from '../../../components/Title/Title';
 
+import ts from './teemStone.svg';
 import acryl from './acryl.png';
 import pg from './pg.png';
 
@@ -18,7 +19,39 @@ function Career() {
       </Title>
       <Spacing spacing={48} />
       <Flex className={cx('company')}>
-        <Center as='a' href='https://www.acryl.ai/' className={cx('link')}>
+        <Center
+          as='a'
+          href='https://teemstone.com/'
+          target='_blank'
+          className={cx('link')}
+        >
+          <img className={cx('logo')} src={ts} alt='logo' />
+        </Center>
+        <Flex className={cx('name')}>
+          <Text typo='s1' className={cx('n')}>
+            (주)팀스톤
+          </Text>
+          <Text typo='c1' className={cx('date')}>
+            재직기간 : 24.04.02 ~
+          </Text>
+        </Flex>
+        <Flex className={cx('content')}>
+          <Center className={cx('text')} horizontal={false}>
+            <Text>• 기업용 OS 모니터링 시스템을 서비스 합니다.</Text>
+          </Center>
+          <Center className={cx('text')} horizontal={false}>
+            <Text>• onTune 플랫폼 웹 FE 개발자로 근무하고 있습니다.</Text>
+          </Center>
+        </Flex>
+      </Flex>
+      <Spacing spacing={32} />
+      <Flex className={cx('company')}>
+        <Center
+          as='a'
+          href='https://www.acryl.ai/'
+          target='_blank'
+          className={cx('link')}
+        >
           <img className={cx('logo')} src={acryl} alt='logo' />
         </Center>
         <Flex className={cx('name')}>
@@ -40,7 +73,12 @@ function Career() {
       </Flex>
       <Spacing spacing={32} />
       <Flex className={cx('company')}>
-        <Center as='a' href='http://powergen.ai/' className={cx('link')}>
+        <Center
+          as='a'
+          href='http://powergen.ai/'
+          target='_blank'
+          className={cx('link')}
+        >
           <img className={cx('logo')} src={pg} alt='logo' />
         </Center>
         <Flex className={cx('name')}>
