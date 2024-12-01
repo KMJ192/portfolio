@@ -77,8 +77,12 @@ export const projects = [
         link: 'none',
         text: 'Chart 라이브러리를 활용한 데이터 시각화 (ECharts 사용)',
       },
+      {
+        link: 'none',
+        text: 'Svelte4 -> Svelte5 포팅',
+      },
     ],
-    stack: ['Typescript', 'Svelte'],
+    stack: ['Typescript', 'Svelte', 'SvelteKIT'],
   },
   {
     name: 'jonathanUI',
