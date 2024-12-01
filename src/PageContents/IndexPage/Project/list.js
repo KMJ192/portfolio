@@ -197,7 +197,7 @@ export const projects = [
       height: 88,
       cnt: 1,
       list: [marker],
-      link: 'https://jonathan.acryl.ai/marker',
+      // link: 'https://jonathan.acryl.ai/marker',
     },
     stack: [
       'Typescript',
@@ -249,7 +249,7 @@ export const projects = [
       height: 90,
       cnt: 1,
       list: [flightbase],
-      link: 'https://jonathan.acryl.ai/flightbase',
+      // link: 'https://jonathan.acryl.ai/flightbase',
     },
     stack: [
       'Javascript',
