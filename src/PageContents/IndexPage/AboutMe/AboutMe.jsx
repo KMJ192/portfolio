@@ -1,7 +1,8 @@
 import React from 'react';
-import { Flex, Text, Grid } from '@cdkit/react-ui';
+import { Flex, Text } from '@cdkit/react-ui';
 
 import Title from '../../../components/Title/Title';
+import AboutMeList from './AboutMeList';
 
 import * as style from './style.module.scss';
 import classNames from 'classnames/bind';
@@ -15,57 +16,52 @@ function AboutMe() {
           About Me
         </Title>
         <Text typo='c1' as='span' className={cx('lu')}>
-          Last update : 2024.12.01
+          Last update : 2024.12.07
         </Text>
       </Flex>
       <Flex className={cx('box')}>
         <Flex className={cx('left')}>
-          <Grid className={cx('info')}>
-            <Text typo='s1' className={cx('first')}>
-              이름
-            </Text>
-            <Text typo='b1'>김명준</Text>
-          </Grid>
-          <Grid className={cx('info')}>
-            <Text typo='s1' className={cx('first')}>
-              생년월일
-            </Text>
-            <Text typo='b1'>1994.02.04</Text>
-          </Grid>
-          <Grid className={cx('info')}>
-            <Text typo='s1' className={cx('first')}>
-              Email
-            </Text>
-            <Text typo='b1'>myeongjun222@gmail.com</Text>
-          </Grid>
+          <AboutMeList
+            name='이름'
+            content={{
+              label: '김명준',
+            }}
+          />
+          <AboutMeList
+            name='생년월일'
+            content={{
+              label: '1994.02.04',
+            }}
+          />
+          <AboutMeList
+            name='Email'
+            content={{
+              label: 'myeongjun222@gmail.com',
+            }}
+          />
         </Flex>
         <Flex className={cx('right')}>
-          <Grid className={cx('info')}>
-            <Text typo='s1' className={cx('first')}>
-              Github
-            </Text>
-            <Text
-              as='a'
-              typo='b1'
-              target='_blank'
-              href='https://github.com/KMJ192'
-            >
-              https://github.com/KMJ192
-            </Text>
-          </Grid>
-          <Grid className={cx('info')}>
-            <Text typo='s1' className={cx('first')}>
-              Blog
-            </Text>
-            <Text
-              as='a'
-              href='https://kmj24.tistory.com/'
-              target='_blank'
-              typo='b1'
-            >
-              https://kmj24.tistory.com/
-            </Text>
-          </Grid>
+          <AboutMeList
+            name='깃 저장소'
+            content={{
+              label: '깃 저장소 가기',
+              link: 'https://github.com/KMJ192',
+            }}
+          />
+          <AboutMeList
+            name='블로그'
+            content={{
+              label: '블로그 가기',
+              link: 'https://github.com/KMJ192',
+            }}
+          />
+          <AboutMeList
+            name='코드 스타일'
+            content={{
+              label: 'Notion 가기',
+              link: 'https://flaxen-asparagus-b90.notion.site/155d7854f6678045ab6ed35e9aff0208',
+            }}
+          />
         </Flex>
       </Flex>
     </Flex>
