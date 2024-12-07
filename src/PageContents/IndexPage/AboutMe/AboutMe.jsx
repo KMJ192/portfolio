@@ -56,9 +56,9 @@ function AboutMe() {
             }}
           />
           <AboutMeList
-            name='코드 스타일'
+            name='코딩 스타일'
             content={{
-              label: 'Notion 가기',
+              label: '보러 가기(notion 링크)',
               link: 'https://flaxen-asparagus-b90.notion.site/155d7854f6678045ab6ed35e9aff0208',
             }}
           />
